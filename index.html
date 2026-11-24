@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>첩포검사 안내 영상</title>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      min-height: 100dvh;
+      display: grid;
+      place-items: center;
+      background: #000;
+      color: #fff;
+    }
+    video {
+      display: block;
+      width: min(100%, 960px);
+      max-height: 100vh;
+      max-height: 100dvh;
+      aspect-ratio: 910 / 512;
+    }
+  </style>
+</head>
+<body>
+  <video controls playsinline preload="metadata" aria-label="첩포검사 안내 영상" src="./patch-test.mp4">
+    <a href="./patch-test.mp4">첩포검사 안내 영상 열기</a>
+  </video>
+</body>
+</html>
